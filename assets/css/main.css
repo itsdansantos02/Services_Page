@@ -914,8 +914,6 @@ margin: 0 auto;
 
 @media (max-width: 1300px) {
   .about_section {
-
-
       padding-left: 5%;
       padding-right: 5%;
 
@@ -953,6 +951,9 @@ margin: 0 auto;
   .about_section {
       padding-left: 0;
       padding-right: 0;
+  }
+  .container-fluid{
+    padding-right: 0;
   }
 
   .about_section .box {
@@ -1318,6 +1319,25 @@ margin: 0 auto;
 @media (max-width: 768px) {
   .partners {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .partners-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-item p{
+    text-align: center;
+
+  }
+  .detail-box p{
+    text-align: center;
+  }
+  .detail-box h2{
+    text-align: center;
+  }
+  .detail-box{
+    padding: 0;
+  }
+  .box{
+    padding: 0;
   }
   .name{
     margin-top: 15px;
