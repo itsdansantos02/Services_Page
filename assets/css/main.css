@@ -997,9 +997,11 @@ margin: 0 auto;
 
 .client_section .box .client_detail {
   border: 1px solid #82c419;
-  margin-left: -75px;
-  margin-top: 45px;
-  padding: 45px 35px 35px 90px;
+  margin-left: 5%;
+    margin-top: 45px;
+    margin-right: 5%;
+    padding: 10px;
+    width: 90%;
 }
 
 .client_section .box .client_detail .client_name {
